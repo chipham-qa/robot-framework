@@ -12,7 +12,7 @@ To handle the report.html, you can use the --output option when running the Robo
 `robot --outputdir results --output report.html tests/`
 
 <h3>Should Know</h3>
-To use Data Driven Testing you should install packages robotframework-datadriver
+To use Data Driven Testing you should install packages robotframework-datadriver: <br>
    1. Click on File > Setting <br>
    2. Project Robot framework > Python Interpreter <br>
    3. Install robotframework-datadriver
