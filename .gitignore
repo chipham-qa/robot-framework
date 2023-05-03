@@ -26,6 +26,10 @@ share/python-wheels/
 *.egg
 MANIFEST
 log
+API/log
+Web/log
+Web/Reports
+API/Reports
 output.xml
 
 # PyInstaller
