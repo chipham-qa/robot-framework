@@ -3,7 +3,7 @@ Library    Selenium2Library
 Resource   ../Resources/LoginPageKeywords.robot
 Library     DataDriver       Web/TestData/login.xlsx      sheet_name=Sheet1
 
-Suite Setup         Open Web     ${URL}      ${Browser}
+Suite Setup         Open Swag Web     ${URL}      ${Browser}
 Test Template      Invalid Login
 
 
