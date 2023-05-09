@@ -25,7 +25,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-log/
+/log
+log.html
 API/log
 Web/log
 Web/Reports
