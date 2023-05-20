@@ -11,3 +11,9 @@ Begin Web Test
 End Web Test
     Close Browser
 
+Go To Page
+    [Arguments]     ${URL}
+    Go To    ${URL}
+
+
+

@@ -1,8 +1,6 @@
 *** Settings ***
 Library     Selenium2Library
 Library     ../Libraries/CustomKeywordsLib.py
-Resource    ../Config/Env.robot
-
 
 *** Variables ***
 #Login page

@@ -2,6 +2,8 @@
 Library    Selenium2Library
 Resource   ../Resources/PageObject/LoginPage.robot
 Resource    ../Resources/Common.robot
+Resource    ../Config/Env.robot
+
 
 Test Setup  Begin Web Test
 Test Teardown   End Web Test
