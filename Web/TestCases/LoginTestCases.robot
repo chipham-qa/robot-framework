@@ -11,7 +11,7 @@ ${password}     secret_sauce
 *** Test Cases ***
 Verify user login successfully
     Login Swag
-    Verify login successfully
+    LoginPageKeywords.Verify login successfully
     Close Browser
 
 *** Keywords ***

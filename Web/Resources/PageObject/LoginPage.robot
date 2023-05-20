@@ -1,11 +1,16 @@
 *** Settings ***
-Library  Selenium2Library
-Variables  ../Locators/LoginPage.py
+Library     Selenium2Library
+Library     ../Libraries/CustomKeywordsLib.py
+
+*** Variables ***
+#Login page
+${txt_username} =       name:user-name
+${txt_password} =       name:password
+${btn_Login} =          name:login-button
 
 *** Keywords ***
 Open Swag Web
-    [Arguments]         ${URL}          ${Broswer}
-    Open Browser        ${URL}          ${Broswer}
+    Go To      ${URL.${Environment}}
     Maximize Browser Window
 
 Enter Credentials
@@ -16,3 +21,6 @@ Enter Credentials
 
 Verify login successfully
     title should be  Swag Labs
+    Print Contain Page    Custome keyword
+    
+
